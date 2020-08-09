@@ -1,7 +1,7 @@
 # baiduwp
 PanDownload Web, built with CloudFlare Workers
 # Demo
-https://pandl.live
+No longer available due to abuse.
 # Usage
 ```
 headers:{
