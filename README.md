@@ -20,3 +20,5 @@ headers:{
 [acgotaku/BaiduExporter](https://github.com/acgotaku/BaiduExporter): send to aria2
 
 [pan.naifei.cc](https://pan.naifei.cc/new/): another download method
+
+[MoePlayer/DPlayer](https://github.com/MoePlayer/DPlayer): video & audio preview
