@@ -11,6 +11,7 @@ No longer available due to abuse.
 ```javascript
 const BDUSS = '' //**INPUT YOUR BDUSS HERE**
 const STOKEN = '' //**INPUT YOUR STOKEN HERE**
+const SVIPBDUSS = ''//**INPUT YOUR SVIP BDUSS HERE**
 ```
 
 or comment out those then use environment variables in workers settings

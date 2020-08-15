@@ -1,5 +1,6 @@
 const BDUSS = '' //**INPUT YOUR BDUSS HERE**
 const STOKEN = '' //**INPUT YOUR STOKEN HERE**
+const SVIPBDUSS = ''//**INPUT YOUR SVIP BDUSS HERE**
 
 const error = `
 <!DOCTYPE html>
@@ -640,7 +641,7 @@ const download = async request => {
   const getRealLink = await fetch(dlink,{
     headers:{
       'user-agent': 'LogStatistic',
-      'Cookie': 'BDUSS=**INPUT YOUR SVIP BDUSS HERE**;'
+      'Cookie': 'BDUSS=' + SVIPBDUSS + ';'
     },
     redirect:"manual"
   })
