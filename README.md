@@ -1,14 +1,21 @@
 # baiduwp
+
 PanDownload Web, built with CloudFlare Workers
+
 # Demo
+
 No longer available due to abuse.
+
 # Usage
+
+```javascript
+const BDUSS = '' //**INPUT YOUR BDUSS HERE**
+const STOKEN = '' //**INPUT YOUR STOKEN HERE**
+const SVIPBDUSS = ''//**INPUT YOUR SVIP BDUSS HERE**
 ```
-headers:{
-    'user-agent': 'Some UA',
-    'Cookie': 'BDUSS=INPUT YOUR BDUSS HERE; STOKEN=INPUT YOUR STOKEN HERE'
-  }
-```
+
+or comment out those then use environment variables in workers settings
+
 # Thanks
 
 [PanDownload](https://pandownload.com): static pages
@@ -22,4 +29,3 @@ headers:{
 [pan.naifei.cc](https://pan.naifei.cc/new/): another download method
 
 [MoePlayer/DPlayer](https://github.com/MoePlayer/DPlayer): video & audio preview
-
