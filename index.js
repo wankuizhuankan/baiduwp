@@ -273,7 +273,7 @@ const generate = async request => {
   async function getFileList(shareid,uk,randsk,dir){
     const res2 = await fetch('https://pan.baidu.com/share/list?app_id=250528&channel='
     + 'chunlei&clienttype=0&desc=0&num=100&order=name&page=1&root=' + (+!dir) + '&shareid=' + shareid + '&showempty=0&uk='
-    + uk + (dir ? '&dir=' + dir : '') + '&web=1',{
+    + uk + (dir ? '&dir=' + encodeURIComponent(dir) : '') + '&web=1',{
       method:'GET',
       headers:{
         'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.514.1919.810 Safari/537.36',
