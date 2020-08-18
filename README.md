@@ -27,6 +27,6 @@ or comment out those then use environment variables in workers settings
 
 [acgotaku/BaiduExporter](https://github.com/acgotaku/BaiduExporter): send to aria2
 
-[pan.naifei.cc](https://pan.naifei.cc/new/): another download method
+~~[pan.naifei.cc](https://pan.naifei.cc/new/): another download method~~ (Outdated)
 
 [MoePlayer/DPlayer](https://github.com/MoePlayer/DPlayer): video & audio preview
