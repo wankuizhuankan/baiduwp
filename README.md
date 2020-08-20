@@ -30,3 +30,5 @@ or comment out those then use environment variables in workers settings
 ~~[pan.naifei.cc](https://pan.naifei.cc/new/): another download method~~ (Outdated)
 
 [MoePlayer/DPlayer](https://github.com/MoePlayer/DPlayer): video & audio preview
+
+[Yixun](https://yixun.writeas.com/yi-xun): new download method
