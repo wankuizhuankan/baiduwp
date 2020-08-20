@@ -237,7 +237,12 @@ const generate = async request => {
       if(res.status == 302){
         return 1
       }else{
-        return false
+        if(res.headers.get('set-cookie').includes('BDCLND=')){
+          return cookie.match(/BDCLND\=(.+?)\;/)[1]
+        }
+        else{
+          return false
+        }
       }
     }
   }
